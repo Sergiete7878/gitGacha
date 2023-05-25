@@ -23,4 +23,9 @@ public class Testv2 {
         String result=v2.cocinar(4);
         Assertions.assertEquals("4",result);
     }
+    @Test
+    public void test5(){
+        String result=v2.cocinar(5);
+        Assertions.assertEquals("Miga",result);
+    }
 }
